@@ -23,7 +23,7 @@ class ChatResponse(BaseModel):
     total:float=Field(gt=0)
 
 
-dotenv.load_dotenv()
+dotenv.load_dotenv()    
 
 OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 GROQ_API_KEY=os.getenv("GROQ_API_KEY")
